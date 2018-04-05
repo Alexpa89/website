@@ -59,6 +59,12 @@ class BookingStep3 extends PureComponent {
               </Button>
             </p>
           </section>
+
+          { /* Nestpick tracking: Booking */ }
+          <iframe src={`https://nestpick.go2cloud.org/aff_goal?a=l&goal_id=3&adv_sub=${room.id}`}
+            scrolling="no" frameborder="0" width="1" height="1"
+          />
+          { /* End Nestpick tracking: Booking */ }
         </div>
       </IntlProvider>
     );
