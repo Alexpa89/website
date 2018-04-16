@@ -32,7 +32,7 @@ function Availability({ lang, className, availableAt }) {
 
 const definition = { 'fr-FR': {
   availableFrom: 'Dispo. le {{date}}',
-  unavailable: 'Plus disponible',
+  unavailable: 'Plus disponible du tout',
   availableNow: 'Disponible immédiatement',
 } };
 
