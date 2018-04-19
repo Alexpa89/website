@@ -72,7 +72,7 @@ function RoomContent({ lang, roomId, apartmentId, room, apartment, viewsCount })
               <BookingInfo roomId={roomId} apartmentId={apartmentId} />
               <div className={style.sameRoomCount}>
                 <Text id="viewsCount" fields={{ viewsCount }}>
-                  {`${viewsCount} visitors viewed this room this week.`}
+                  {`${viewsCount} visitors viewed this room this week. We recommend that you book without delay.`}
                 </Text>
               </div>
             </div>
@@ -95,7 +95,7 @@ const definition = { 'fr-FR': {
   housemates: 'Colocataires',
   map: 'Carte',
   neighborhood: 'Quartier',
-  viewsCount: '{{viewsCount}} personnes ont consulté cette annonce cette semaine.',
+  viewsCount: '{{viewsCount}} personnes ont consulté cette annonce cette semaine. Nous vous recommandons de réserver sans tarder.',
 
 } };
 
